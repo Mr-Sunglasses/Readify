@@ -10,13 +10,15 @@ cd readify
 
 python3 -m venv venv
 
-source env/bin/activate
+source venv/bin/activate
 
 pip3 install -r requirements.txt
 ```
 
 ## Usage
 ```bash
+cd readify
+
 python3 readify.py --help
 
 python3 readify.py <path of the readme> --port=<port in which you want to serve the render README>
