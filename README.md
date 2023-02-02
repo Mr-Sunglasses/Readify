@@ -1,6 +1,6 @@
 # Readify
 
-A Python tool for Rendering README files to your Browsers.
+A Python tool for Rendering markdown files to your Browsers.
 
 ## Setup
 ```bash
@@ -25,7 +25,7 @@ python3 readify.py <path of the readme> --port=<port in which you want to serve 
 # Demo images
 ### help
 ![Image-1](demo/images/demo_image1.png)
-### rendering README
+### rendering Markdowns
 ![Image-2](demo/images/demo_image2.png)
 ### Serving Webapp
 ![Image-1](demo/images/demo_image3.png)
