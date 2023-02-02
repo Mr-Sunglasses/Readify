@@ -1,6 +1,6 @@
 # Readify
 
-A Python tool for Rendering README to your Browsers files using your Browser.
+A Python tool for Rendering README files to your Browsers.
 
 ## Setup
 ```bash
