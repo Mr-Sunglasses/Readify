@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-import typer
+try:
+    import typer
+except ModuleNotFoundError:
+    print("Module not found error (Check the setup section of the readme)")
 
 
 def readify(path: str, port: int = 5000):
