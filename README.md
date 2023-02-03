@@ -26,11 +26,11 @@ python3 readify.py <path of the readme> --port=<port in which you want to serve 
 
 # Demo images
 ### help
-![Image-1](demo/images/demo_image1.png)
+![Image-1](https://i.ibb.co/xfNvq99/demo-image1.png)
 ### rendering Markdowns
-![Image-2](demo/images/demo_image2.png)
+![Image-2](https://i.ibb.co/BwNjzg0/demo-image2.png)
 ### Serving Webapp
-![Image-1](demo/images/demo_image3.png)
+![Image-1](https://i.ibb.co/FmG5Kcn/demo-image3.png)
 
 
 ## To add Readify to your PATH [for linux and mac users]
