@@ -17,14 +17,14 @@ def readify(path: str, port: int = 5000):
         from pygments.formatters import HtmlFormatter
 
         app = Flask(__name__)
-    except:
+    except ImportError:
         print("Module not found error (Check the setup section of the readme)")
 
     @app.route("/")
     def index():
         try:
             readme_file = open(f"{path}", "r")
-        except:
+        except FileNotFoundError:
             print("404: That file couldn't be found or you don't have permission to view it")
         
         md_template_string = markdown.markdown(
